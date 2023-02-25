@@ -1,0 +1,591 @@
+F:\fifth_semester\Python\XGBoost_Bagging\venv\Scripts\python.exe F:/fifth_semester/Python/XGBoost_Bagging/main/main.py
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 796 entries, 0 to 795
+Data columns (total 32 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   name1   796 non-null    int64
+ 1   name2   796 non-null    int64
+ 2   name3   796 non-null    float64
+ 3   name4   796 non-null    float64
+ 4   name5   796 non-null    float64
+ 5   name6   796 non-null    float64
+ 6   name7   796 non-null    float64
+ 7   name8   796 non-null    float64
+ 8   name9   796 non-null    float64
+ 9   name10  796 non-null    float64
+ 10  name11  796 non-null    float64
+ 11  name12  796 non-null    float64
+ 12  name13  796 non-null    float64
+ 13  name14  796 non-null    float64
+ 14  name15  796 non-null    float64
+ 15  name16  796 non-null    float64
+ 16  name17  796 non-null    float64
+ 17  name18  796 non-null    float64
+ 18  name19  796 non-null    float64
+ 19  name20  796 non-null    float64
+ 20  name21  796 non-null    float64
+ 21  name22  796 non-null    float64
+ 22  name23  796 non-null    float64
+ 23  name24  796 non-null    float64
+ 24  name25  796 non-null    float64
+ 25  name26  796 non-null    float64
+ 26  name27  796 non-null    float64
+ 27  name28  796 non-null    float64
+ 28  name29  796 non-null    float64
+ 29  name30  796 non-null    float64
+ 30  name31  796 non-null    float64
+ 31  name32  796 non-null    float64
+dtypes: float64(30), int64(2)
+memory usage: 199.1 KB
+188.2773991584433 174.9303896456837 172.39989791723076 171.33199236602928 165.7368589327346
+[188.2773991584433, 174.9303896456837, 172.39989791723076, 171.33199236602928, 165.7368589327346]
+196.59384835050088 179.02666580795932 173.92337344113233 169.4469256908484 165.1239546014441
+[196.59384835050088, 179.02666580795932, 173.92337344113233, 169.4469256908484, 165.1239546014441]
+[1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 1. 0.
+ 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1.
+ 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 0.
+ 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1.
+ 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0.
+ 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1.
+ 1. 0. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 0.]
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 0.
+ 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0.
+ 1. 1. 0. 1. 1. 1. 1. 1. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 0.
+ 1. 0. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 0. 1. 1. 0. 1. 1. 0. 1. 1. 0. 0. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1.
+ 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1.
+ 1. 0. 0. 0. 1. 0. 1. 1. 1. 0. 1. 1. 0. 1. 0.]
+precision: 0.89937106918239
+run time: 18.54500126838684
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 796 entries, 0 to 795
+Data columns (total 32 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   name1   796 non-null    int64
+ 1   name2   796 non-null    int64
+ 2   name3   796 non-null    float64
+ 3   name4   796 non-null    float64
+ 4   name5   796 non-null    float64
+ 5   name6   796 non-null    float64
+ 6   name7   796 non-null    float64
+ 7   name8   796 non-null    float64
+ 8   name9   796 non-null    float64
+ 9   name10  796 non-null    float64
+ 10  name11  796 non-null    float64
+ 11  name12  796 non-null    float64
+ 12  name13  796 non-null    float64
+ 13  name14  796 non-null    float64
+ 14  name15  796 non-null    float64
+ 15  name16  796 non-null    float64
+ 16  name17  796 non-null    float64
+ 17  name18  796 non-null    float64
+ 18  name19  796 non-null    float64
+ 19  name20  796 non-null    float64
+ 20  name21  796 non-null    float64
+ 21  name22  796 non-null    float64
+ 22  name23  796 non-null    float64
+ 23  name24  796 non-null    float64
+ 24  name25  796 non-null    float64
+ 25  name26  796 non-null    float64
+ 26  name27  796 non-null    float64
+ 27  name28  796 non-null    float64
+ 28  name29  796 non-null    float64
+ 29  name30  796 non-null    float64
+ 30  name31  796 non-null    float64
+ 31  name32  796 non-null    float64
+dtypes: float64(30), int64(2)
+memory usage: 199.1 KB
+193.00652703777402 178.16122809481703 168.0926348097351 164.3350334480847 162.4651317277697
+[193.00652703777402, 178.16122809481703, 168.0926348097351, 164.3350334480847, 162.4651317277697]
+204.46835597916433 189.50431482463827 187.7759310310732 186.71238759705656 186.0113208330166
+[204.46835597916433, 189.50431482463827, 187.7759310310732, 186.71238759705656, 186.0113208330166]
+[1. 0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1.
+ 1. 0. 0. 1. 0. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 0. 0. 1. 0. 1. 1.
+ 1. 1. 1. 1. 1. 0. 0. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 0.
+ 1. 1. 0. 0. 0. 0. 1. 0. 1. 1. 0. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1.
+ 1. 0. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 0. 1. 0. 1. 0. 0. 1. 1. 1. 1. 0. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0.]
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0.
+ 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0.
+ 1. 1. 1. 1. 1. 0. 0. 0. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1.
+ 1. 1. 1. 0. 0. 1. 0. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 1.
+ 1. 1. 1. 1. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1.
+ 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1.]
+precision: 0.8427672955974843
+run time: 19.290997743606567
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 796 entries, 0 to 795
+Data columns (total 32 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   name1   796 non-null    int64
+ 1   name2   796 non-null    int64
+ 2   name3   796 non-null    float64
+ 3   name4   796 non-null    float64
+ 4   name5   796 non-null    float64
+ 5   name6   796 non-null    float64
+ 6   name7   796 non-null    float64
+ 7   name8   796 non-null    float64
+ 8   name9   796 non-null    float64
+ 9   name10  796 non-null    float64
+ 10  name11  796 non-null    float64
+ 11  name12  796 non-null    float64
+ 12  name13  796 non-null    float64
+ 13  name14  796 non-null    float64
+ 14  name15  796 non-null    float64
+ 15  name16  796 non-null    float64
+ 16  name17  796 non-null    float64
+ 17  name18  796 non-null    float64
+ 18  name19  796 non-null    float64
+ 19  name20  796 non-null    float64
+ 20  name21  796 non-null    float64
+ 21  name22  796 non-null    float64
+ 22  name23  796 non-null    float64
+ 23  name24  796 non-null    float64
+ 24  name25  796 non-null    float64
+ 25  name26  796 non-null    float64
+ 26  name27  796 non-null    float64
+ 27  name28  796 non-null    float64
+ 28  name29  796 non-null    float64
+ 29  name30  796 non-null    float64
+ 30  name31  796 non-null    float64
+ 31  name32  796 non-null    float64
+dtypes: float64(30), int64(2)
+memory usage: 199.1 KB
+204.03981927221787 190.00102045758928 187.712132180423 183.83018341352903 180.9036538626829
+[204.03981927221787, 190.00102045758928, 187.712132180423, 183.83018341352903, 180.9036538626829]
+194.24412067333168 175.59635275600766 166.52083645764628 164.87028077317115 161.9508851294409
+[194.24412067333168, 175.59635275600766, 166.52083645764628, 164.87028077317115, 161.9508851294409]
+[1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 1. 1. 1. 1. 1. 1.
+ 0. 1. 1. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1.
+ 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1.
+ 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0.
+ 1. 1. 1. 0. 1. 1. 0. 1. 1. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 0. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0.]
+[0. 0. 1. 1. 0. 1. 0. 0. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 0. 1. 0. 1. 0.
+ 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1.
+ 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 0. 1. 0. 1. 1. 1. 0. 1. 1. 0. 1. 1.
+ 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 0. 1. 0. 0. 1. 1. 0. 0. 1.
+ 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 0. 1. 1. 0. 1. 1. 0. 0.
+ 1. 1. 1. 0. 1. 0. 1. 1. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 0. 1. 1. 0. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1.]
+precision: 0.8301886792452831
+run time: 19.881142139434814
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 796 entries, 0 to 795
+Data columns (total 32 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   name1   796 non-null    int64
+ 1   name2   796 non-null    int64
+ 2   name3   796 non-null    float64
+ 3   name4   796 non-null    float64
+ 4   name5   796 non-null    float64
+ 5   name6   796 non-null    float64
+ 6   name7   796 non-null    float64
+ 7   name8   796 non-null    float64
+ 8   name9   796 non-null    float64
+ 9   name10  796 non-null    float64
+ 10  name11  796 non-null    float64
+ 11  name12  796 non-null    float64
+ 12  name13  796 non-null    float64
+ 13  name14  796 non-null    float64
+ 14  name15  796 non-null    float64
+ 15  name16  796 non-null    float64
+ 16  name17  796 non-null    float64
+ 17  name18  796 non-null    float64
+ 18  name19  796 non-null    float64
+ 19  name20  796 non-null    float64
+ 20  name21  796 non-null    float64
+ 21  name22  796 non-null    float64
+ 22  name23  796 non-null    float64
+ 23  name24  796 non-null    float64
+ 24  name25  796 non-null    float64
+ 25  name26  796 non-null    float64
+ 26  name27  796 non-null    float64
+ 27  name28  796 non-null    float64
+ 28  name29  796 non-null    float64
+ 29  name30  796 non-null    float64
+ 30  name31  796 non-null    float64
+ 31  name32  796 non-null    float64
+dtypes: float64(30), int64(2)
+memory usage: 199.1 KB
+194.21539133883954 175.4490661881685 168.17771816012976 166.93772530637528 165.49957449158836
+[194.21539133883954, 175.4490661881685, 168.17771816012976, 166.93772530637528, 165.49957449158836]
+185.2666678190531 171.92958135021917 168.71347756263538 167.9965608815674 167.7832441155762
+[185.2666678190531, 171.92958135021917, 168.71347756263538, 167.9965608815674, 167.7832441155762]
+[1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1.
+ 1. 1. 0. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 0. 1. 0. 1. 0. 0. 0. 1. 1. 1.
+ 1. 1. 0. 1. 1. 0. 1. 0. 0. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 0. 1. 0. 1. 1. 0. 1. 1. 1. 0. 0. 1. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1.]
+[1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1.
+ 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 0. 1. 1. 1. 0. 0. 0. 1. 1. 1.
+ 1. 1. 1. 1. 1. 0. 1. 0. 0. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 0. 1. 0. 1. 0. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 0. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1.]
+precision: 0.8679245283018868
+run time: 20.772101163864136
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 796 entries, 0 to 795
+Data columns (total 32 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   name1   796 non-null    int64
+ 1   name2   796 non-null    int64
+ 2   name3   796 non-null    float64
+ 3   name4   796 non-null    float64
+ 4   name5   796 non-null    float64
+ 5   name6   796 non-null    float64
+ 6   name7   796 non-null    float64
+ 7   name8   796 non-null    float64
+ 8   name9   796 non-null    float64
+ 9   name10  796 non-null    float64
+ 10  name11  796 non-null    float64
+ 11  name12  796 non-null    float64
+ 12  name13  796 non-null    float64
+ 13  name14  796 non-null    float64
+ 14  name15  796 non-null    float64
+ 15  name16  796 non-null    float64
+ 16  name17  796 non-null    float64
+ 17  name18  796 non-null    float64
+ 18  name19  796 non-null    float64
+ 19  name20  796 non-null    float64
+ 20  name21  796 non-null    float64
+ 21  name22  796 non-null    float64
+ 22  name23  796 non-null    float64
+ 23  name24  796 non-null    float64
+ 24  name25  796 non-null    float64
+ 25  name26  796 non-null    float64
+ 26  name27  796 non-null    float64
+ 27  name28  796 non-null    float64
+ 28  name29  796 non-null    float64
+ 29  name30  796 non-null    float64
+ 30  name31  796 non-null    float64
+ 31  name32  796 non-null    float64
+dtypes: float64(30), int64(2)
+memory usage: 199.1 KB
+200.59275019402355 179.90882664707843 169.19860105989804 169.39246338914415 165.8628049632784
+[200.59275019402355, 179.90882664707843, 169.19860105989804, 169.39246338914415, 165.8628049632784]
+202.6889624148574 181.17499591861218 168.78538795055186 164.78946355218068 163.11849147105613
+[202.6889624148574, 181.17499591861218, 168.78538795055186, 164.78946355218068, 163.11849147105613]
+[0. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0.
+ 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1.
+ 1. 1. 1. 1. 1. 0. 0. 1. 1. 0. 1. 0. 1. 1. 0. 0. 1. 1. 0. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 0. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1.
+ 0. 1. 1. 0. 0. 1. 1. 1. 0. 1. 1. 1. 1. 0. 1.]
+[0. 1. 0. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0.
+ 1. 1. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1.
+ 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 0. 1. 0. 0. 0. 1. 0. 0. 1. 1. 0. 1. 1.
+ 1. 1. 1. 1. 1. 0. 0. 0. 1. 1. 1. 0. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1.
+ 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 1. 1. 1. 1. 1. 0. 0. 1.
+ 0. 1. 1. 0. 0. 1. 1. 0. 0. 1. 1. 1. 1. 0. 1.]
+precision: 0.9056603773584906
+run time: 19.36209225654602
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 796 entries, 0 to 795
+Data columns (total 32 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   name1   796 non-null    int64
+ 1   name2   796 non-null    int64
+ 2   name3   796 non-null    float64
+ 3   name4   796 non-null    float64
+ 4   name5   796 non-null    float64
+ 5   name6   796 non-null    float64
+ 6   name7   796 non-null    float64
+ 7   name8   796 non-null    float64
+ 8   name9   796 non-null    float64
+ 9   name10  796 non-null    float64
+ 10  name11  796 non-null    float64
+ 11  name12  796 non-null    float64
+ 12  name13  796 non-null    float64
+ 13  name14  796 non-null    float64
+ 14  name15  796 non-null    float64
+ 15  name16  796 non-null    float64
+ 16  name17  796 non-null    float64
+ 17  name18  796 non-null    float64
+ 18  name19  796 non-null    float64
+ 19  name20  796 non-null    float64
+ 20  name21  796 non-null    float64
+ 21  name22  796 non-null    float64
+ 22  name23  796 non-null    float64
+ 23  name24  796 non-null    float64
+ 24  name25  796 non-null    float64
+ 25  name26  796 non-null    float64
+ 26  name27  796 non-null    float64
+ 27  name28  796 non-null    float64
+ 28  name29  796 non-null    float64
+ 29  name30  796 non-null    float64
+ 30  name31  796 non-null    float64
+ 31  name32  796 non-null    float64
+dtypes: float64(30), int64(2)
+memory usage: 199.1 KB
+187.1743687879545 174.44768984724232 169.74690876841794 168.57580224050145 165.85494218743565
+[187.1743687879545, 174.44768984724232, 169.74690876841794, 168.57580224050145, 165.85494218743565]
+190.4357622172796 180.38060956205584 175.36378107314485 171.0727903567427 170.0928080599619
+[190.4357622172796, 180.38060956205584, 175.36378107314485, 171.0727903567427, 170.0928080599619]
+[0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 1. 0. 1.
+ 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1.
+ 1. 1. 0. 1. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1.
+ 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 0. 0. 0. 1. 1. 0. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1.
+ 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 0. 1. 1. 1.
+ 1. 0. 1. 0. 1. 0. 1. 0. 0. 0. 1. 1. 1. 1. 1.]
+[0. 1. 0. 1. 1. 0. 0. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 0. 0. 1. 1. 0. 1.
+ 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 0. 1. 0. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1.
+ 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 0. 0. 0. 1. 1. 0. 1.
+ 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1.
+ 0. 0. 1. 0. 0. 1. 0. 1. 0. 1. 1. 0. 1. 1. 1. 0. 1. 1. 0. 1. 0. 1. 1. 1.
+ 1. 0. 1. 0. 1. 0. 1. 1. 0. 0. 1. 0. 1. 1. 1.]
+precision: 0.8867924528301887
+run time: 21.37799906730652
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 796 entries, 0 to 795
+Data columns (total 32 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   name1   796 non-null    int64
+ 1   name2   796 non-null    int64
+ 2   name3   796 non-null    float64
+ 3   name4   796 non-null    float64
+ 4   name5   796 non-null    float64
+ 5   name6   796 non-null    float64
+ 6   name7   796 non-null    float64
+ 7   name8   796 non-null    float64
+ 8   name9   796 non-null    float64
+ 9   name10  796 non-null    float64
+ 10  name11  796 non-null    float64
+ 11  name12  796 non-null    float64
+ 12  name13  796 non-null    float64
+ 13  name14  796 non-null    float64
+ 14  name15  796 non-null    float64
+ 15  name16  796 non-null    float64
+ 16  name17  796 non-null    float64
+ 17  name18  796 non-null    float64
+ 18  name19  796 non-null    float64
+ 19  name20  796 non-null    float64
+ 20  name21  796 non-null    float64
+ 21  name22  796 non-null    float64
+ 22  name23  796 non-null    float64
+ 23  name24  796 non-null    float64
+ 24  name25  796 non-null    float64
+ 25  name26  796 non-null    float64
+ 26  name27  796 non-null    float64
+ 27  name28  796 non-null    float64
+ 28  name29  796 non-null    float64
+ 29  name30  796 non-null    float64
+ 30  name31  796 non-null    float64
+ 31  name32  796 non-null    float64
+dtypes: float64(30), int64(2)
+memory usage: 199.1 KB
+191.23144060167195 178.08574487846326 171.7810331638604 169.8066680859196 169.0012096014247
+[191.23144060167195, 178.08574487846326, 171.7810331638604, 169.8066680859196, 169.0012096014247]
+188.53501503699715 174.74050809414837 167.453718383457 166.67729801448618 165.9894583893172
+[188.53501503699715, 174.74050809414837, 167.453718383457, 166.67729801448618, 165.9894583893172]
+[1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 0. 0. 0. 1. 1. 1. 1. 1. 0. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 0. 1.
+ 1. 1. 0. 1. 0. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1.
+ 1. 0. 0. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1.
+ 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 0. 0. 1. 1. 0. 0. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 0. 1. 1. 0. 1. 1. 0. 0. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 0. 1. 1. 1. 0.]
+[0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 0. 1. 0. 0. 0. 1. 1. 1. 1. 0. 0. 1. 1.
+ 1. 0. 1. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 0. 0.
+ 1. 1. 0. 1. 0. 1. 0. 1. 0. 0. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1.
+ 1. 0. 0. 1. 1. 0. 1. 0. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 0.
+ 0. 1. 1. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 1. 1. 0. 1. 1. 0. 0. 1. 0. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 0. 1. 0. 1. 0. 1. 1. 1. 1. 0. 0. 1. 0.
+ 0. 1. 1. 1. 1. 1. 1. 0. 1. 0. 0. 1. 1. 1. 0.]
+precision: 0.8113207547169812
+run time: 20.333683252334595
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 796 entries, 0 to 795
+Data columns (total 32 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   name1   796 non-null    int64
+ 1   name2   796 non-null    int64
+ 2   name3   796 non-null    float64
+ 3   name4   796 non-null    float64
+ 4   name5   796 non-null    float64
+ 5   name6   796 non-null    float64
+ 6   name7   796 non-null    float64
+ 7   name8   796 non-null    float64
+ 8   name9   796 non-null    float64
+ 9   name10  796 non-null    float64
+ 10  name11  796 non-null    float64
+ 11  name12  796 non-null    float64
+ 12  name13  796 non-null    float64
+ 13  name14  796 non-null    float64
+ 14  name15  796 non-null    float64
+ 15  name16  796 non-null    float64
+ 16  name17  796 non-null    float64
+ 17  name18  796 non-null    float64
+ 18  name19  796 non-null    float64
+ 19  name20  796 non-null    float64
+ 20  name21  796 non-null    float64
+ 21  name22  796 non-null    float64
+ 22  name23  796 non-null    float64
+ 23  name24  796 non-null    float64
+ 24  name25  796 non-null    float64
+ 25  name26  796 non-null    float64
+ 26  name27  796 non-null    float64
+ 27  name28  796 non-null    float64
+ 28  name29  796 non-null    float64
+ 29  name30  796 non-null    float64
+ 30  name31  796 non-null    float64
+ 31  name32  796 non-null    float64
+dtypes: float64(30), int64(2)
+memory usage: 199.1 KB
+208.1739697464662 184.89928953064927 182.50134591273462 178.91025854102065 178.66214582216088
+[208.1739697464662, 184.89928953064927, 182.50134591273462, 178.91025854102065, 178.66214582216088]
+202.37591487709898 187.35787437192332 181.9227392308831 179.5905526923665 176.67322901352483
+[202.37591487709898, 187.35787437192332, 181.9227392308831, 179.5905526923665, 176.67322901352483]
+[1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1.
+ 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 0. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1.
+ 1. 1. 1. 0. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1.
+ 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0.]
+[0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1.
+ 0. 1. 1. 0. 1. 1. 0. 1. 1. 0. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 0. 1.
+ 1. 1. 1. 1. 1. 0. 0. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1.
+ 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1.]
+precision: 0.8176100628930818
+run time: 21.593998670578003
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 796 entries, 0 to 795
+Data columns (total 32 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   name1   796 non-null    int64
+ 1   name2   796 non-null    int64
+ 2   name3   796 non-null    float64
+ 3   name4   796 non-null    float64
+ 4   name5   796 non-null    float64
+ 5   name6   796 non-null    float64
+ 6   name7   796 non-null    float64
+ 7   name8   796 non-null    float64
+ 8   name9   796 non-null    float64
+ 9   name10  796 non-null    float64
+ 10  name11  796 non-null    float64
+ 11  name12  796 non-null    float64
+ 12  name13  796 non-null    float64
+ 13  name14  796 non-null    float64
+ 14  name15  796 non-null    float64
+ 15  name16  796 non-null    float64
+ 16  name17  796 non-null    float64
+ 17  name18  796 non-null    float64
+ 18  name19  796 non-null    float64
+ 19  name20  796 non-null    float64
+ 20  name21  796 non-null    float64
+ 21  name22  796 non-null    float64
+ 22  name23  796 non-null    float64
+ 23  name24  796 non-null    float64
+ 24  name25  796 non-null    float64
+ 25  name26  796 non-null    float64
+ 26  name27  796 non-null    float64
+ 27  name28  796 non-null    float64
+ 28  name29  796 non-null    float64
+ 29  name30  796 non-null    float64
+ 30  name31  796 non-null    float64
+ 31  name32  796 non-null    float64
+dtypes: float64(30), int64(2)
+memory usage: 199.1 KB
+196.08763991235173 178.62109980015725 173.75795115696252 172.65430137762038 169.8798926680403
+[196.08763991235173, 178.62109980015725, 173.75795115696252, 172.65430137762038, 169.8798926680403]
+206.29204958893777 178.55474045677357 175.37307096612628 173.8175792114577 171.9214434934297
+[206.29204958893777, 178.55474045677357, 175.37307096612628, 173.8175792114577, 171.9214434934297]
+[1. 1. 1. 1. 1. 0. 0. 1. 1. 1. 0. 0. 1. 0. 0. 1. 0. 0. 1. 1. 1. 1. 0. 0.
+ 0. 1. 0. 0. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 0. 1. 0. 1. 1. 1. 0. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 0. 1. 1. 1. 1. 1. 1. 0. 0. 1. 1. 0. 1.
+ 1. 1. 1. 0. 1. 0. 1. 1. 1. 0. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1.
+ 1. 0. 0. 1. 1. 0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+[1. 1. 1. 1. 1. 0. 0. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 0. 1. 0. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 0. 1. 1. 0. 1.
+ 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1.
+ 1. 1. 0. 1. 1. 0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+precision: 0.8805031446540881
+run time: 20.196829557418823
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 796 entries, 0 to 795
+Data columns (total 32 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   name1   796 non-null    int64
+ 1   name2   796 non-null    int64
+ 2   name3   796 non-null    float64
+ 3   name4   796 non-null    float64
+ 4   name5   796 non-null    float64
+ 5   name6   796 non-null    float64
+ 6   name7   796 non-null    float64
+ 7   name8   796 non-null    float64
+ 8   name9   796 non-null    float64
+ 9   name10  796 non-null    float64
+ 10  name11  796 non-null    float64
+ 11  name12  796 non-null    float64
+ 12  name13  796 non-null    float64
+ 13  name14  796 non-null    float64
+ 14  name15  796 non-null    float64
+ 15  name16  796 non-null    float64
+ 16  name17  796 non-null    float64
+ 17  name18  796 non-null    float64
+ 18  name19  796 non-null    float64
+ 19  name20  796 non-null    float64
+ 20  name21  796 non-null    float64
+ 21  name22  796 non-null    float64
+ 22  name23  796 non-null    float64
+ 23  name24  796 non-null    float64
+ 24  name25  796 non-null    float64
+ 25  name26  796 non-null    float64
+ 26  name27  796 non-null    float64
+ 27  name28  796 non-null    float64
+ 28  name29  796 non-null    float64
+ 29  name30  796 non-null    float64
+ 30  name31  796 non-null    float64
+ 31  name32  796 non-null    float64
+dtypes: float64(30), int64(2)
+memory usage: 199.1 KB
+195.1431344411703 175.32517407234397 172.02499401206978 167.75781665805053 165.94535628793096
+[195.1431344411703, 175.32517407234397, 172.02499401206978, 167.75781665805053, 165.94535628793096]
+193.40165653556247 177.77437313550473 171.9061687505761 170.21115304784692 166.9356068058916
+[193.40165653556247, 177.77437313550473, 171.9061687505761, 170.21115304784692, 166.9356068058916]
+[1. 1. 1. 0. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 0. 0. 0. 1. 1. 0. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1.
+ 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 0. 0. 1. 1. 1. 0. 1. 1. 1. 0. 0. 1. 1. 1.
+ 0. 1. 1. 0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1.
+ 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 0. 1. 0. 1.]
+[1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1.
+ 0. 0. 0. 1. 1. 0. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1.
+ 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1.
+ 1. 1. 0. 0. 1. 1. 1. 1. 0. 1. 0. 0. 1. 1. 1. 0. 1. 1. 1. 0. 0. 1. 1. 1.
+ 1. 1. 1. 0. 0. 1. 1. 0. 1. 1. 1. 0. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1.
+ 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 1.
+ 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1.]
+precision: 0.8930817610062893
+run time: 19.54410433769226
